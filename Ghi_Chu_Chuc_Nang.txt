@@ -1,0 +1,48 @@
+align	
+Canh lề nội dung của ô theo chiều ngang
+
+valign	
+Canh lề nội dung của ô theo chiều dọc
+
++ colspan	
+Xác định số lượng ô (theo chiều ngang) mà bạn muốn gộp chung lại với nhau
+
++ rowspan	
+Xác định số lượng ô (theo chiều dọc) mà bạn muốn gộp chung lại với nhau
+
++ width	
+Xác định chiều rộng của ô
+
++ height	
+Xác định chiều cao của ô
+
++ bgcolor	
+Xác định màu nền của ô
+
++ nowrap	
+Xác định việc nội dung của ô sẽ được hiển thị trên cùng một dòng
+
+2.1) Thuộc tính align
+
++ left	
+Nội dung của ô sẽ được canh nằm phía bên trái
+
++ right	
+Nội dung của ô sẽ được canh nằm phía bên phải
+
++ center	
+Nội dung của ô sẽ được canh nằm ở giữa
+
++ justify	
+Nội dung của ô sẽ được canh đều hai bên trái phải
+
+2.2) Thuộc tính valign
+
++ top	
+Nội dung của ô sẽ được canh nằm phía trên
+
++ bottom	
+Nội dung của ô sẽ được canh nằm phía dưới
+
++ middle	
+Nội dung của ô sẽ được canh nằm ở giữa

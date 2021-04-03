@@ -1,0 +1,491 @@
+//Trong trang web các chữ trong h1 và p đều có chữ màu đỏ và chữ nhỏ đi 50% :
+p,h1{
+	color:red;
+	font.size:50%;
+}
+/////////// Hàm :
+A + B = 
+    <script>
+
+        function sum(a,b)
+    {
+        c=a+b;
+        document.write(c);
+        return; 
+    }
+     sum(3,5);
+    </script></br>
+/////alert : Nhập và điền , hiển thị Họ tên : 
+    <script type="text/javascript">
+        a= prompt("Nhập Vào Tên : ","");
+        b= prompt("Nhập Vào Chữ Lót : ","");
+        c= prompt("Nhập Vào Họ : ","");
+        document.write("Họ Tên Của Bạn là : " +c + b+ ""+a)  
+    </script>
+//////Random (a->b)
+z= a + Math.round(Math.random()*(b-a));
+//////Chèn ảnh vào link 
+<a href="https://facebook.com" target="_self"><img src="Lisa.jpg" alt="facebook Lisa" /></a>
+//////Thẻ nằm ngang 
+li{
+    color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+///// Khởi tạo CSS :
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/// Open Live
+Alt + L Alt + O
+//// Vị trí Chữ trong thẻ 
+text-align: ;
+//// Thẻ tạo bảng
+<table>
+	<tr>
+	  <th>Year</th>
+	  <th>Event</th>
+	</tr>
+</table>
+
+Thẻ <table> xác định phần tử là một cái bảng.
+Thẻ <tr> xác định phần tử là một hàng trong bảng.
+Thẻ <td> xác định phần tử là một ô trong hàng.
+Thẻ <th> xác định phần tử là một ô tiêu đề trong hàng.
+<caption>	Định nghĩa phụ đề bảng.
+<colgroup>	Chỉ định một nhóm của một hoặc nhiều cột trong một bảng để định dạng.
+<col>	Được sử dụng với thẻ <colgroup> để chỉ định thuộc tính cột cho mỗi cột.
+<tbody>	Được sử dụng để nhóm nội dung body trong một bảng.
+<thead>	Được sử dụng để nhóm nội dung header trong một bảng.
+<tfooter>	Được sử dụng để nhóm nội dung footer trong một bảng.
+
+<!–…–>	Định nghĩa một bình luận, được dùng để comment phần code html
+<!DOCTYPE>	Định nghĩa loại tài liệu
+<a>	Định nghĩa một siêu liên kết
+<abbr>	Định nghĩa từviết tắt hoặc tóm tắt một nội dung nào đó
+<acronym>	Không hỗ trợ trong HTML5. Thay thế sử dụng <abbr>.
+Định nghĩa một từ viết tắt
+ <address>	Định nghĩa thông tin liên lạc cho các tác giả / chủ sở hữu của một tài liệu
+<applet>	Không hỗ trợ trong HTML5. Thay thế sử dụng <embed> hoặc <object>.
+Định nghĩa nhúng một applet
+<area>	Định nghĩa vùng  bên trong của một ánh xạ hình ảnh
+<article>	Định nghĩa một bài báo
+<aside>	Định nghoã nội dung nằm bên cạnh nội dung của trang
+<audio>	Thẻ định nghĩa nội dung âm thanh
+<b>	Thẻ định nghĩa chữ in đậm
+<base>	Chỉ định URL cơ sở/target cho tất cả các URL tương đối trong một tài liệu
+<basefont>	Không hỗ trợ trong HTML5. Sử dụng CSS để thay thế.
+Chỉ định màu mặc định, kích thước và phông chữ cho tất cả phần văn bản trong tài liệu
+<bdi>	Tách biệt một phần của văn bản có thể được định dạng theo một hướng khác nhau từ văn bản khác bên ngoài nó
+<bdo>	Ghi đè hướng văn bản hiện hành
+<big>	Không hỗ trợ trong HTML5. Sử dụng CSS để thay thế.
+Xác định văn bản lớn
+<blockquote>	Định nghĩa một phần được trích dẫn từ nguồn khác
+<body>	Định nghĩa thân của tài liệu
+<br>	Định nghĩa một ngắt dòng đơn
+<button>	Định nghĩa một nút bấm
+<canvas>	Được sử dụng để vẽ đồ họa, thông qua một ngông ngữ script (thường là JavaScript)
+<caption>	Định nghĩa một chú thích trong bảng
+<center>	Không hỗ trợ trong HTML5. Sử dụng CSS để thay thế.
+Xác định văn bản làm trung tâm
+<cite>	Định nghĩa nội dung  được trích dẫn như một quyển sách, bài báo, một video, v.v.
+<code>	Định nghĩa một đoạn mã máy tính
+<col>	Chỉ định thuộc tính cột cho mỗi cột trong một <colgroup>
+<colgroup>	Chỉ định một nhóm gồm một hoặc nhiều cột trong một bảng để định dạng
+<datalist>	Định nghĩa một danh sách các giá trị tùy chọn được định nghĩa trước cho phần tử <input>
+<dd>	Được sử dụng để mô tả một từ khoá/giá trị trong một danh sách mô tả
+<del>	Định nghĩa văn bản đã bị xóa từ một tài liệu
+<details>	Xác định các chi tiết khác mà người dùng có thể xem hoặc ẩn
+<dfn>	Mô tả định nghĩa của một từ
+<dialog>	Định nghĩa một hộp thoại hoặc một cửa sổ
+<dir>	Không hỗ trợ trong HTML5. Sử dụng <ul> để thay thế.
+Định nghĩa một danh sách thư mục
+<div>	Định nghĩa một phần trong một tài liệu
+<dl>	Định nghĩa một danh sách mô tả
+<dt>	Định nghĩa một từ khoá /tên trong danh sách mô tả
+<em>	Định nghĩa nhấn mạnh văn bản
+<embed>	Định nghĩa một container chứa một ứng dụng mở rộng (không phải HTML)
+<fieldset>	Nhóm liên nhóm các phần tử liên quan trong form
+<figcaption>	Định nghĩa một chú thích cho thẻ <figure>
+<figure>	Chỉ đánh dấu một ảnh trong tài liệu
+<font>	Không hỗ trợ trong HTML5. Sử dụng CSS để thay thế.
+Xác định font chữ, màu sắc và kích thước cho văn bản
+<footer>	Định nghĩa phần footer cho một tài liệu hoặc một đoạn
+<form>	Định nghĩa một form HTML cho người dùng nhập vào
+<frame>	Không hỗ trợ trong HTML5.
+Định nghĩa một cửa sổ (khung) trong một khung
+<frameset>	Không hỗ trợ trong HTML5.
+Định nghĩa một tập hợp các frame
+<h1> to <h6>	Định nghĩa tiêu đề HTML
+<head>	Xác định các thông tin về tài liệu
+<header>	Định nghĩa một tiêu đề cho một tài liệu hoặc phần
+<hr>	Sử dụng để phân tách các phần nội dung trong HTML
+<html>	 Định nghĩa gốc của một tài liệu HTML
+<i>	Định nghĩa một phần chữ nghiêng cho phần văn bản
+<iframe>	 Định nghĩa một khung nội tuyến cho phép nhúng các tài liệu, các trang html khác vào trang html hiện tại
+<img>	Thẻ định nghĩa một hình ảnh
+<input>	Định nghĩa một control nhập dữ liệu
+<ins>	Định nghĩa một đoạn văn bản đã được chèn thêm thay thế vào tài liệu
+<kbd>	Là một thẻ dùng để nhấn mạnh, dùng để định nghĩa đầu vào bàn phím
+<keygen>	Định nghĩa khoá mã hoá đi kèm với một trường trong form
+<label>	Định nghĩa một nhãn cho một phần tử <input>
+<legend>	Định nghĩa một chú thích cho một phần tử <fieldset>
+<li>	 Định nghĩa một danh sách
+<link>	Xác định mối quan hệ giữa một tài liệu và một nguồn lực bên ngoài (thường được sử dụng để liên kết đến style sheets)
+<main>	Chỉ định các nội dung chính của một tài liệu
+<map>	Định nghĩa một ánh xạ hình ảnh ở phía client
+<mark>	Định nghĩa đánh dấu/làm nổi bật văn bản
+<menu>	Định nghĩa một danh sách/menu các lệnh
+<menuitem>	Định nghĩa một lệnh/một mục menu mà người dùng có thể gọi từ một menu khác
+<meta>	Định nghĩa siêu dữ liệu về một tài liệu HTML
+<meter>	Định nghĩa một thước đo lường với một khoảng đã biết
+<nav>	Định nghĩa liên kết điều hướng
+<noframes>	Không hỗ trợ trong HTML5.
+Định nghĩa một nội dung thay thế cho người dùng nếu trình duyệt không hỗ trợ khung nhìn
+<noscript>	Định nghĩa một nội dung thay thế cho người dùng mà trình duyệt phía client không hỗ trợ script
+<object>	Định nghĩa một đối tượng nhúng vào trang
+<ol>	Định nghĩa một danh sách đặt hàng
+<optgroup>	Định nghĩa một nhóm các tùy chọn liên quan trong một danh sách drop-down
+<option>	Định nghĩa một lựa chọn trong danh sách drop-down
+<output>	Xác định kết quả của một phép tính
+<p>	Định nghĩa một đoạn văn
+<param>	Định nghĩa một tham số cho một đối tượng
+<pre>	Định nghĩa văn bản định dạng sẵn
+<progress>	Miêu tả quá trình xử lý công việc bằng một thanh progressbar, thường được kết hợp với code javascript.
+<q>	Định nghĩa dấu nháy kép xung quoanh phần văn bản
+<rp>	Định nghĩa những gì thể hiện trong các trình duyệt không hỗ trợ các chú thích
+<rt>	Định nghĩa diễn giải/phát âm của các ký tự(đối với kiểu chữ Đông Á)
+<ruby>	Định nghĩa một chú thích ​​(đối với kiểu chữ Đông Á)
+<s>	Định nghĩa văn bản đó không còn đúng
+<samp>	Hiển thị kết quả đầu ra của một chương trình máy tính
+<script>	Định nghĩa một kịch bản phía máy khách
+<section>	Định nghĩa một phần trong một tài liệu
+<select>	Định nghĩa một danh sách drop-down
+<small>	Định nghĩa văn bản chữ nhỏ
+<source>	Định nghĩa các nguồn đa phương tiện cho các phần tử đa phương tiên như<video> và <audio>
+<span>	Định nghĩa một phần trong một tài liệu
+<strike>	Không hỗ trợ trong HTML5. Sử dụng <del> hoặc <s> thay thế.
+Định nghĩa chữ gạch ngang
+<strong>	Định nghĩa văn bản in đậm, ý nghĩa nhấn mạnh độ quan trọng
+<style>	Định nghĩa định kiểu cho một tài liệu
+<sub>	Định nghĩa văn bản giống như chỉ số dưới
+<summary>	Hiển thị  tiêu đề cho phần tử <details>
+<sup>	Hiển thị văn bản giống số mũ
+<table>	Định nghĩa một bảng
+<tbody>	Nhóm các thên nội dung trong một bảng
+<td>	Định nghĩa một ô trong một bảng
+<textarea>	Định nghĩa một ô nhập dữ liệu văn bản có nhiều dòng
+<tfoot>	Nhóm các nội dung footer trong một bảng
+<th>	Định nghĩa một ô tiêu đề trong một bảng
+<thead>	Nhóm các nội dung tiêu đề trong một bảng
+<time>	Định nghĩa ngày/giờ
+<title>	Định nghĩa một tiêu đề cho tài liệu
+<tr>	Định nghĩa một hàng trong một bảng
+<track>	Định nghĩa nội dung môt tả như chú thích, bình luận, hoặc các loại văn bản khác cho các tập tin đa phương tiện (<video> và <audio>)
+<tt>	Không hỗ trợ trong HTML5. Sử dụng CSS để thay thế.
+Xác định văn bản của máy
+<u>	Sử dụng để tạo chữ gạch chân cho phần văn bản
+<ul>	Định nghĩa một danh sách không có thứ tự
+<var>	Định nghĩa một biến
+<video>	Định nghĩa một video hoặc movie
+<wbr>	Định nghĩa một dấu ngắt dòng
+<line-height> chiều cao Chữ 
+
+////////Thuộc tính	Mô tả	CSS
+color	Đặt màu sắc cho đoạn văn bản	1
+opacity	Đặt mức độ trong suốt cho một phần tử nào đó	3
+
+////////////Các thuộc tính Background và Border
+Chức ănng thiết lập các thuộc tính màu nền và đường biên cho các đối tượng trên trang.
+
+Thuộc tính	Mô tả	CSS
+background	Một thuộc tính viết tắt để đặt thuộc tính nền trong lời khai báo	1
+background-attachment	Đặt một ảnh nền để cố định hoặc cuộn với phần còn lại của trang	1
+background-blend-mode	Chỉ định các chế độ trộn của mỗi lớp nền(màu sắc/hình ảnh)	3
+background-color	Chỉ định màu nền của một phần tử	1
+background-image	Chỉ định một hoặc nhiều hình ảnh nền cho một phần tử	1
+background-position	Chỉ định vị trí của hình ảnh nền	1
+background-repeat	Thiết lập như thế nào một ảnh nền sẽ được lặp đi lặp lại	1
+background-clip	Chỉ định khu vực để sơn màu nền	3
+background-origin	Chỉ định nơi các hình nền được định vị	3
+background-size	Chỉ định kích thước của ảnh nền	3
+border	Thiết lập tất cả các thuộc tính đường viền trong lời khai báo	1
+border-bottom	Thiết lập tất cả các thuộc tính đường viền dưới trong lời khai báo	1
+border-bottom-color	Thiết lập màu của đường viền dưới	1
+border-bottom-left-radius	Xác định hình dạng của các đường viền góc dưới bên trái	3
+border-bottom-right-radius	Xác định hình dạng của các đường viền góc dưới bên phải	3
+border-bottom-style	Thiết lập kiểu (style) của đường viền dưới	1
+border-bottom-width	Thiết lập độ rộng của đường viền dưới	1
+border-color	Thiết lập màu sắc của bốn đường viền	1
+border-image	Một thuộc tính viết tắt để thiết lập tất cả các thuộc tính border-image-*	3
+border-image-outset	Chỉ định giá trị khu vực ảnh viền vượt ra ngoài vùng giới hạn của vùng bao	3
+border-image-repeat	Chỉ định ảnh viền nên được lặp đi lặp lại, tròn hoặc kéo dài	3
+border-image-slice	Chỉ định cụ thể như thế nào để cắt ảnh viền	3
+border-image-source	Chỉ định đường dẫn tới hình ảnh để sử dụng như đường viền	3
+border-image-width	Chỉ định độ rộng của ảnh-viền	3
+border-left	Thiết lập tất cả thuộc tính đường viền trái trong lời khai báo	1
+border-left-color	Thiết lập màu sắc của đường viền trái	1
+border-left-style	Thiết lập kiểu ( style) của đường viền trái	1
+border-left-width	Thiết lập độ rộng của đường viền trái	1
+border-radius	Thuộc tính viết tắt để thiết lập tất cả bốn đường viền-*-thuộc tính radius(bán kính)	3
+border-right	Thiết lập thuộc tính đường viền phải trong lời khai báo	1
+border-right-color	Thiết lập màu sắc cho đường viền phải	1
+border-right-style	Thiết lập kiểu (style) cho đường viền phải	1
+border-right-width	Thiết lập độ rộng cho đường viền phải	1
+border-style	Thiết lập kiểu (style)  cho bốn đường viền	1
+border-top	Thiết lập thuộc tính đường viền trên trong lời khai báo	1
+border-top-color	Thiết lập màu sắc cho đường viền trên	1
+border-top-left-radius	Xác định hình dạng của đường viền góc trên bên trái	3
+border-top-right-radius	Xác định hình dạng của đường viền góc trên bên phải	3
+border-top-style	Thiết lập kiểu (style) cho đường viền trên	1
+border-top-width	Thiết lập độ rộng của đường viền trên	1
+border-width	Thiết lập độ rộng của bốn đường viền	1
+box-decoration-break	Thiết lập dáng vẻ của hình nền và đường viền của một phần tử  tại trang ngắt, hoặc đối với phần tử in-line , tại  dòng ngắt.	3
+box-shadow	Gắn một hoặc nhiều đổ bóng (drop-shadows) vào hộp	3
+
+///////////////Các thuộc tính Basic Box
+Thuộc tính	Mô tả	CSS
+bottom	Xác định vị trí cuối của phần tử position (vị trí)	2
+clear	Xác định hai bên của phần tử (left,right) nơi mà phần tử float không được cho phép (ngăn cản thành phần không được float trái, phải hay cả hai)	1
+clip	Xác định đoạn cho phần tử khi sử dụng thuộc tính position có giá trị “absolute“	2
+display	Chỉ định làm thế nào một phần tử HTML nào đó sẽ được hiển thị	1
+float	Xác định có hay không một box được float(trôi nổi)	1
+height	Thiết lập chiều cao của thành phần	1
+left	Xác định vị trí bên trái của phần tử position	2
+margin	Thiết lập thuộc tính margin (căn lề cho phần tử) trong một thông báo	1
+margin-bottom	Thiết lập lề dưới của một phần tử	1
+margin-left	Thiết lập lề trái của một phần tử	1
+margin-right	Thiết lập lề phải của một phần tử	1
+margin-top	Thiết lập lề trên của một phần tử	1
+max-height	Thiết lập chiều cao tối đa của một phần tử	2
+max-width	Thiết lập chiều rộng tối đa của một phần tử	2
+min-height	Thiết lập chiều cao tối thiểu của một phần tử	2
+min-width	Thiết lập chiều rộng tối thiểu của một phần tử	2
+overflow	Chỉ định những gì sẽ xảy ra nếu nội dung tràn ra ngoài phần tử hộp	2
+overflow-x	Xác định có hay không để cắt cạnh trái/phải của đoạn văn bản, nếu nó tràn ra khỏi khu vực nội dung của phần tử	3
+overflow-y	Xác định có hay không để cắt cạnh trên /dưới của đoạn văn bản, nếu nó tràn ra khỏi khu vực nội dung của phần tử	3
+padding	Thiết lập lại thuộc tính padding (vùng đệm) trong lời khai báo	1
+padding-bottom	Thiết lập vùng đệm dưới của phần tử	1
+padding-left	Thiết lập vùng đệm trái của một phần tử	1
+padding-right	Thiết lập vùng đệm phải của một phần tử	1
+padding-top	Thiết lập vùng đệm trên của một phần tử	1
+position	Xác định kiểu của phương thức định vị được sử dụng cho một phần tử (static, relative, absolute or fixed)	2
+right	Xác định vị trí phải của phần tử position	2
+top	Xác định vị trí trên của phần tử position	2
+visibility	Xác định có hay không một phần tử có thể nhìn thấy được	2
+width	Thiết lập độ rộng của phần tử	1
+vertical-align	Sắp xếp nội dung theo chiều dọc của phần tử	1
+z-index	Thiết lập thứ tự xếp chồng nhau của phần tử position	2
+
+//////////////Thuộc tính cho bố cục Flexible Box
+Thuộc tính	Mô tả	CSS
+align-content	Xác định sự căn chỉnh giữa các dòng bên trong một khối linh hoạt ( flexible container) khi các mục không sử dụng các khoảng cách có sẵn	3
+align-items	Xác định sự căn chỉnh cho các mục bên trong một khối linh hoạt ( flexible container)	3
+align-self	Xác định sự căn chỉnh cho các mục được chọn bên trong một khối linh hoạt ( flexible container)	3
+flex	Xác định độ dài của các mục, tương đối với phần còn lại	3
+flex-basis	Xác định độ dài ban đầu của một mục linh hoạt (flexible item)	3
+flex-direction	Xác định hướng của các mục linh hoạt (flexible items)	3
+flex-flow	Một thuộc tính viết tắt cho thuộc tính flex-direction và flex-wrap	3
+flex-grow	Chỉ định bao nhiêu mục sẽ tăng tương đối so với phần còn lại	3
+flex-shrink	Chỉ định bao nhiêu mục sẽ giảm tương đối so với phần còn lại	3
+flex-wrap	Chỉ định liệu các mục linh hoạt (flexible items) nên bọc hay không	3
+justify-content	Xác định sự căn chỉnh giữa các mục bên trong một khối linh hoạt (flexible container) khi các mục không sử dụng tất cả các khoảng cách có sẵn	3
+order	Thiết lập thứ tự của các mục linh hoạt (flexible items), tương đối so với phần còn lại	3
+
+//////////////Các thuộc tính Text
+Thuộc tính	Mô tả	CSS
+hanging-punctuation	Xác định ký tự chấm câu có thể được đặt ở ngoài đường hộp	3
+hyphens	Thiết lập làm thế nào tách từ để cải thiện cách bố trí của đoạn văn	3
+letter-spacing	Tăng hoặc giảm khoảng cách giữa các ký tự trong một văn bản	1
+line-break	Xác định cách ngắt dòng	3
+line-height	Thiết lập chiều cao của dòng	1
+overflow-wrap	Xác định có hay không trình duyệt có thể ngắt dòng trong các từ để ngăn cản việc tràn (Khi một chuỗi quá dài để phù hợp với hộp chứa nó	3
+tab-size	Xác định chiều dài của các kí tự tab	3
+text-align	Xác định căn chỉnh nội dung theo chiều ngang	1
+text-align-last	Mô tả cách dòng cuối cùng của mộtđoạn hoặc một dòng ngay trước khi một ngắt dòng là căn chỉnh khi text-align là “justify”	3
+text-combine-upright	Xác định sự kết hợp của đa ký tự vào khoảng cách của một ký tự đơn	3
+text-indent	Xác định rõ sự thụt dòng đầu tiên trong một khối văn bản	1
+text-justify	Xác định phương pháp căn lề thẳng hàng hai bên sử dụng khi text-align là “justify”	3
+text-transform	Điều khiển các chữ in hoa	1
+white-space	Xác định cách mà khoảng trắng bên trong một phần tử được xử lý	1
+word-break	Xác định quy tắc ngắt dòng đối với scripts non-CJK	3
+word-spacing	Tăng hoặc giảm khoảng cách giữa các từ trong đoạn văn	1
+word-wrap	Cho phép dài, những từ dài được xuống hàng mà không làm vỡ layout	3
+Các thuộc tính Text Decoration
+Thuộc tính	Mô tả	CSS
+text-decoration	Xác định các trang trí thêm vào văn bản	1
+text-decoration-color	Xác định màu của văn bản trang trí (text-decoration)	3
+text-decoration-line	Xác định loại của dòng trong text-decoration	3
+text-decoration-style	Xác định kiểu của các dòng trong một văn bản trang trí	3
+text-shadow	Thêm đổ bóng cho văn bản	3
+text-underline-position	Xác định vị trí của các gạch dưới được thiết lập bằng cách sử dụng thuộc tính text-decoration	3
+
+//////////////Các thuộc tính Font
+Thuộc tính	Mô tả	CSS
+@font-face	Một quy tắc cho phép các trang web tải và sử dụng các phông chữ khác với phông chữ “web-safe”	3
+@font-feature-values	Cho phép tác giả sử dụng một tên chung trong font-variant-alternate đối với tính năng kích hoạt khác nhau trong OpenType	3
+font	Đặt tất cả các thuộc tính font trong lời khai báo	1
+font-family	Xác định họ phông chữ cho văn bản	1
+font-feature-settings	Cho phép kiểm soát các tính năng về in tiên tiến trong OpenType fonts	3
+font-kerning	Kiểm soát việc sử dụng các thông tin kerning (cách các từ cách nhau)	3
+font-language-override	Kiểm soát việc sử dụng của ngôn ngữ cụ thể nét trạm (language-specific glyphs) trong kiểu chữ	3
+font-size	Xác định kích thước phông chữ của đoạn văn	1
+font-size-adjust	Duy trì khả năng đọc văn bản khi phông chữ dự phòng xuất hiện	3
+font-stretch	Chọn kiểu normal, condensed,hoặc expanded từ họ phông chữ	3
+font-style	Xác định kiểu chữ cho văn bản	1
+font-synthesis	Quản lí các kiểu chữ (đậm hoặc nghiêng) có thể được tổng hợp bởi trình duyệt	3
+font-variant	Xác định có hay không một văn bản được hiển thị với phông chữ small-caps	1
+font-variant-alternates	Kiểm soát việc sử dụng các nét chạm thay thế liên quan đến việc thay tên được định nghĩa trong @font-feature-values	3
+font-variant-caps	Kiểm soát việc sử dụng nét chạm (glyph)thay thế cho chữ in hoa	3
+font-variant-east-asian	Kiểm soát việc sử dụng nét chạm (glyph ) thay thế cho các kịch bản Đông Á (ví dụ như Trung Quốc và Nhật Bản)	3
+font-variant-ligatures	Kiểm soát các chữ ghép và các biểu mẫu theo ngữ cảnh được sử dụng trong các nội dung văn bản của phần tử mà nó được áp dụng	3
+font-variant-numeric	Kiểm soát việc sử dụng các họa tiết (glyph) thay thế cho số, phân số và đánh dấu thứ tự	3
+font-variant-position	Kiểm soát việc sử dụng các họa tiết thay thế kích thước nhỏ hơn vị trí như là chỉ số trên hoặc chỉ số dưới về đường cơ sở của các phông chữ	3
+font-weight	Xác định độ đậm của phông chữ	1
+
+////////////////Các thuộc tính Writing Modes
+Thuộc tính	Mô tả	CSS
+direction	Xác định hướng văn bản/ hướng bài viết	2
+text-orientation	Xác định hướng của văn bản trong một dòng	3
+text-combine-upright	Xác định sự kết hợp của đa ký tự vào khoảng cách của ký tự đơn	3
+unicode-bidi	Được sử dụng cùng với thuộc tính direction để đặt và trả về  cho dù văn bản nên được ghi đè để hỗ trợ nhiều ngôn ngữ trong cùng một tài liệu	2
+writing-mode	 Xác định liệu dòng văn bản được đặt ra theo chiều ngang hay chiều dọc hay hướng mà khối tiến tới	3
+
+//////////////Các thuộc tính Table
+Thuộc tính	Mô tả	CSS
+border-collapse	Xác định liệu có hay không đường viền của bảng nên tách biệt	2
+border-spacing	Xác định khoảng cách giữa đường viền của các ô lân cận	2
+caption-side	Xác định vị trí của một chú thích bảng	2
+empty-cells	Xác định có hay không để hiển thị đường viền và nền trên ô trống trong một bảng	2
+table-layout	Thiết lập thuật toán bố trí (layout algorithm) được sử dụng cho bảng	2
+Các thuộc tính Lists và Counters
+Thuộc tính	Mô tả	CSS
+counter-increment	Gia tăng một hoặc nhiều counters	2
+counter-reset	Tạo hoặc thiết lập lại một hay nhiều counters	2
+list-style	Thiết lập tất cả các thuộc tính cho danh sách trong lời khai báo	1
+list-style-image	Xác định một hình ảnh như đánh dấu mục danh sách	1
+list-style-position	Xác định nếu đánh danh mục sẽ xuất hiện bên trong hoặc bên ngoài nội dung	1
+list-style-type	Xác định loại của đánh dấu danh mục	1
+
+//////////////Các thuộc tính Animation
+Thuộc tính	Mô tả	CSS
+@keyframes	Xác định mã animation 	3
+animation	Một thuộc tính viết tắt cho các thuộc tính animation  (ngoại trừ animation-play-state và animation-fill-mode)	3
+animation-delay	Xác định sự chậm trễ đối với sự bắt đầu của một chuyển động của hình ảnh hoặc tag (animation)	3
+animation-direction	Xác định có hay không các chuyển động nên chạy ngược lại trên chu kỳ thay thế	3
+animation-duration	Xác định có bao nhiêu giây hoặc mili giây một chuyển động cần để hoàn thành một chu kỳ	3
+animation-fill-mode	Xác định kiểu cho các phần tử khi các chuyển động không chạy (Khi nó dừng lại , hoặc khi nó bị trễ)	3
+animation-iteration-count	Xác định số lần một chuyển động được thực hiện	3
+animation-name	Xác định tên của @keyframes animation	3
+animation-play-state	Xác định xem các chuyển động đang được chạy hay tạm dừng	3
+animation-timing-function	Xác định tốc độ cong của một chuyển động của hình ảnh hoặc tag	3
+
+//////////////Các thuộc tính Transform
+Thuộc tính	Mô tả	CSS
+backface-visibility	Xác định có hay không một phần tử nên được nhìn thấy khi không ở chế độ toàn màn hình	3
+perspective	Xác định chiều sâu	3
+perspective-origin	Xác định vị trí dưới của phần tử 3D	3
+transform	Áp dụng một chuyển đổi  2D hoặc 3D đến một phần tử	3
+transform-origin	Cho phép bạn thay đổi vị trí trên phần tử transform	3
+transform-style	Xác định các phần tử lồng nhau sẽ thế nào trong không gian 3D	3
+Các thuộc tính Transitions
+Thuộc tính	Mô tả	CSS
+transition	Một thuộc tính viết tắt để thiết lập cho 4 thuộc tính chuyển đổi	3
+transition-property	Xác định tên của thuộc tính CSS trong hiệu ứng của quá trình chuyển đổi(none, width, height, all)	3
+transition-duration	Xác định bao nhiêu giây hoặc mili giây một hiệu ứng chuyển đổi hoàn thành	3
+transition-timing-function	Xác định đường cong tốc độ của hiệu ứng chuyển đổi	3
+transition-delay	Xác định khi nào hiệu ứng chuyển đổi sẽ bắt đầu	3
+
+////////////Các thuộc tính Basic User Interface
+Thuộc tính	Mo tả	CSS
+box-sizing	Báo cho trình duyệt các thuộc tính sizing (độ rộng và độ cao) nên có	3
+content	Sử dụng với :before và :after pseudo-elements, để chèn nội dung được tạo ra	2
+cursor	Xác định kiểu con trỏ chuột sẽ được hiển thị khi di chuyển vào phần tử nào đó	2
+ime-mode	Điều khiển trạng thái của trình soạn thảo phương thức nhập cho trường văn bản	3
+nav-down	Xác định nơi để di chuyển khi sử dụng phím mũi tên xuống	3
+nav-index	Xác định thứ tự tab của phần tử	3
+nav-left	Xác định nơi để di chuyển khi sử dụng phím mũi tên sang trái	3
+nav-right	Xác định nơi để di chuyển khi sử dụng phím mũi tên sang phải	3
+nav-up	Xác định nơi để di chuyển khi sử dụng phím mũi tên lên	3
+outline	Thiết lập thuộc tính đường viền trong lời khai báo	2
+outline-color	Đặt màu sắc của đường viền bao ngoài	2
+outline-offset	Đệm đường viền bao ngoài, và rút nó ra bên ngoài cạnh đường viền (border)	3
+outline-style	Thiết lập kiểu của đường viền bao ngoài	2
+outline-width	Thiết lập độ rộng của đường viền bao ngoài	2
+resize	Xác định có hay không một phần tử là thay đổi kích thước bởi người dùng	3
+text-overflow	Xác định các vấn đề khi văn bản tràn khỏi các phần tử container	3
+
+////////Các thuộc tính Multi-column Layout
+Thuộc tính	Mô tả	CSS
+break-after	Xác định cách xử lý ngắt trang, ngắt cột hoặc ngắt đoạn sau khi tạo hộp	3
+break-before	Xác định cách xử lý ngắt trang, ngắt cột hoặc ngắt đoạn trước khi tạo hộp	3
+break-inside	Xác định cách xử lý ngắt trang, ngắt cột hoặc ngắt đoạn bên trong hộp được tạo ra	3
+column-count	Xác định số cột phần tử nên được chia thành	3
+column-fill	Xác định như thế nào để điền vào cột	3
+column-gap	Xác định khoảng cách giữa các cột	3
+column-rule	Một thuộc tính viết tắt để thiết lập thuộc tính column-rule-* cho các đường kẻ giữa các cột	3
+column-rule-color	Xác định màu sắc của các đường kẻ giữa các cột	3
+column-rule-style	Xác định kiểu của các đường kẻ giữa các cột	3
+column-rule-width	Xác định độ rộng của các đường kẻ giữa các cột	3
+column-span	Xác định có bao nhiêu cột chứa phần tử được trải dài	3
+column-width	Xác định độ rộng của cột	3
+columns	Một thuộc tính viết tắt để thiết lập độ rộng cột (column-width) và số cột (column-count)	3
+widows	Xác định số dòng tối thiểu phải còn lại trên một trang khi ngắt trang xảy ra bên trong phần tử	2
+
+/////////Paged Media
+Thuộc tính	Mô tả	CSS
+orphans	Thiết lập số dòng tối thiểu phải còn lại ở cuối của một trang khi ngắt trang xảy ra bên trong phần tử	2
+page-break-after	Thiết lập chế độ ngắt trang sau một phần tử	2
+page-break-before	Thiết lập chế độ ngắt trang trước một phần tử	2
+page-break-inside	Thiết lập chế độ ngắt trang bên trong một phần tử	2
+Generated Content cho trang đa phương tiện
+Thuộc tính	Mô tả	CSS
+marks	Thêm đoạn văn bản được đánh dấu và/hoặc sử dụng cho tài liệu	3
+quotes	Thiết lập các loại dấu bao ngoài khi nhúng một trích dẫn	3
+
+//////////Các thuộc tính Filter Effects
+Thuộc tính	Mô tả	CSS
+filter	Xác định hiệu ứng (vd: làm mờ hoặc chuyển đổi màu sắc) trên một phần tử trước khi nó được hiển thị	3
+Image Values và Replaced Content
+Thuộc tính	Mô tả	CSS
+image-orientation	Xác định sự quay theo bên phải hoặc theo chiều kim đồng hồ  do người dùng áp dụng cho một ảnh  (Thuộc tính này có khả năng bị phản đối và chức năng của nó chuyển sang cho HTML)	3
+image-rendering	Gợi ý cho các trình duyệt về các khía cạnh của một ảnh là rất quan trọng để bảo vệ khi hình ảnh được thu nhỏ lại	3
+image-resolution	Xác định độ phân giải nội tại của các ảnh raster được sử dụng trong/ trên phần tử	3
+object-fit	Xác định làm thế nào nội dung của một phần tử thay thế  nên được trang bị hộp được tạo bởi độ cao và độ rộng	3
+object-position	Xác định căn chỉnh của phần tử thay thế bên trong hộp của nó	3
+
+/////////Các thuộc tính Masking
+Thuộc tính	Mô tả	CSS
+mask		3
+mask-type		3
+
+////////Các thuộc tính Speech
+Thuộc tính	Mô tả	CSS
+mark	Một thuộc tính viết tắt để thiết lập thuộc tính  mark-before và mark-after	3
+mark-after	Cho phép đánh dấu tên được gắn liền với những dòng âm thanh	3
+mark-before	Cho phép đánh dấu tên được gắn liền với những dòng âm thanh	3
+phonemes	xác định cách phát âm cho các văn bản chứa các phần tử tương ứng	3
+rest	Một thuộc tính viết tắt để thiết lập thuộc tính the rest-before và rest-after	3
+rest-after	Xác định phần còn lại hoặc ranh giới điệu tính được quan sát sau khi nói phần tử nội dung	3
+rest-before	Xác định phần còn lại hoặc ranh giới điệu tính để quan sát trước khi nói phần tử nội dung	3
+voice-balance	Xác định sự cân bằng giữa các kênh trái và phải	3
+voice-duration	Xác định nó phải mất bao lâu để trả lại các lựa chọn phần tử nội dung	3
+voice-pitch	Xác định mức độ trung bình (tần số) của giọng nói	3
+voice-pitch-range	Xác định sự thay đổi của tần số	3
+voice-rate	Điều khiển tốc độ nói	3
+voice-stress	Chỉ ra cường độ của sự nhấn mạnh được áp dụng	3
+voice-volume	Đề cập đến biên độ của dạng sóng đầu ra của các bài phát biểu	3
+
+///////Các thuộc tính Marquee
+Chức năng tạo chữ chạy trong HTML
+
+Thuộc tính	Mô tả	CSS
+marquee-direction	Thiết lập hướng di chuyển nội dung	3
+marquee-play-count	Thiết lập bao nhiêu lần di chuyển nội dung	3
+marquee-speed	Thiết lập cách nhanh chóng cuộn nội dung	3
+marquee-style	Thiết lập kiểu di chuyển nội dung	3
